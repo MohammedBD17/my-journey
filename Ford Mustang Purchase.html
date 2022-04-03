@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<Header>
+<h1 id="title"> Ford Mustang Purchase </h1>
+<link rel="stylesheet" href="Ford Mustang Purchase.css">
+</Header>
+  
+<body>
+<p id="description"> Fill in details to complete your Ford Mustang order </p>
+
+<form id="survey-form">
+  
+  <div class="input-headings">
+  
+  <label for="name" id="name-label"> Name </label>
+  <input name="name" type="text" name="name" placeholder="Lee Iacocca" class="form-inputs" required> </input>
+  <br>
+  
+<label for="email" id="email-label"> Email </label>
+<input name="email" type="email" name="email" placeholder="leeiacocca@fordmustang.com" class="form-inputs" required>
+  <br>
+  
+<label for="number" id="number-label"> Age </label>
+<input id="number" type="number" name="number" placeholder="21" min="18" max="100" class="form-inputs" required> </input>
+  <br>
+
+<label for="dropdown" id="model"> Select here your model </label>
+<select id="dropdown" class="form-inputs"> 
+  <option value="EcoBoost"> Ecoboost </option>
+  <option value="EcoBoost_Premium"> Ecoboost Premium </option>
+  <option value="GT"> GT </option>
+  <option value="GT_Premium"> GT Premium </option>
+  <option value="Mach_1"> Mach 1 </option>
+</select>
+ <br>
+ <br>
+
+<label for="model_color" id="model_color"> <b> Model color: </b> </label>
+<br>
+ <input id="model_color" type="radio" id="Blue" name="color" value="Blue">
+ <label for="model_color"> Atlas Blue Metalic </label>
+<br>
+<input id="model_color" type="radio" id="Gray" name="color" value="Gray">
+ <label for="model_color"> Dark Matter Gray Metallic </label>
+<br>
+<input id="model_color" type="radio" id="Green" name="color" value="Green">
+ <label for="model_color"> Eruption Green Metallic </label>
+<br>
+<br>
+
+<label for="features"> <b> Add Features </b> </label>
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="autopilot">
+<label for="checkbox"> Pull Self-driving (autopilot) - $10 000  </label>  
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="dual_motor">
+<label for="checkbox"> Dual motor (All wheel drive) - $8 500  </label>
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="Performance">
+<label for="checkbox"> Performance (6-speed Manual) - $6 900 </label>
+<br>
+<br>
+
+<label id="textarea"> Additionel comments </label>
+<br>
+
+<textarea id="textarea" name="instructions" rows="5" cols="40">
+  
+</textarea>
+<br>
+
+<input id="submit" type="submit" value="Place order" class="submit-button">
+  
+  </div>
+</form>
+
+</body>
+</html>
